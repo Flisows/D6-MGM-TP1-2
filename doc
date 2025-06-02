@@ -1,0 +1,17 @@
+# Démarrer le serveur PHP
+php -S localhost:8082
+
+# Accéder à vos fichiers via le navigateur
+# Ouvrez votre navigateur et entrez les URLs suivantes selon le fichier souhaité:
+
+http://localhost:8082/tp1/index.php
+
+http://localhost:8082/tp2/index.php
+
+http://localhost:8082/encapsulation1/tp1/Oo.php
+
+http://localhost:8082/encapsulation1/tp2/Poo.php
+
+
+
+
