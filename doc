@@ -2,7 +2,8 @@
 php -S localhost:8082
 
 # Accéder auc fichiers via le navigateur
-# Ouvrez votre navigateur et entrez les URLs suivantes selon le fichier souhaité:
+# Ouvrez votre navigateur et entrez les URLs suivantes, ou ctrl + click sur un lien ci dessous 
+# (si vous avez deja lancé le serveur), selon le fichier souhaité:
 
 http://localhost:8082/tp1/index.php
 

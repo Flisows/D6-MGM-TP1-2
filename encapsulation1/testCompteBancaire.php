@@ -11,7 +11,7 @@ echo "Solde après dépôt : " . $compte->afficherSolde() . "\n";
 $compte->retrait(200);
 echo "Solde après retrait : " . $compte->afficherSolde() . "\n";
 
-$tauxInteret = 5; 
+$tauxInteret = 5; // Taux d'intérêt annuel de 5%
 $interets = $compte->calculerInterets($tauxInteret);
 echo "Intérêts calculés pour un taux de $tauxInteret% : $interets\n";
 ?>
