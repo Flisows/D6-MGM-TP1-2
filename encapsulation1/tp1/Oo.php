@@ -1,5 +1,4 @@
 <?php
-// Création des contacts sous forme de tableaux associatifs
 $contact1 = [
     'Nom' => 'Dupont',
     'Prénom' => 'Alice',
@@ -12,10 +11,8 @@ $contact2 = [
     'Email' => 'bob@example.com'
 ];
 
-// Création d'un tableau pour stocker les contacts
 $listeContacts = [$contact1, $contact2];
 
-// Affichage des informations de chaque contact
 foreach ($listeContacts as $contact) {
     echo "Nom: " . $contact['Nom'] . "\n";
     echo "Prénom: " . $contact['Prénom'] . "\n";

@@ -23,11 +23,9 @@ class Contact {
     }
 }
 
-// Création de deux objets Contact
 $contact1 = new Contact('Dupont', 'Alice', 'alice@example.com');
 $contact2 = new Contact('Martin', 'Bob', 'bob@example.com');
 
-// Affichage des informations de chaque contact
 echo "Nom: " . $contact1->getNom() . "\n";
 echo "Prénom: " . $contact1->getPrenom() . "\n";
 echo "Email: " . $contact1->getEmail() . "\n\n";
