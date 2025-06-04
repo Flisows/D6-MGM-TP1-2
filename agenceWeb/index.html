@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Projets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestion de Projets</h1>
+
+    <form action="process.php" method="post">
+        <h2>Ajouter un Projet</h2>
+        <label for="project_name">Nom du Projet:</label>
+        <input type="text" id="project_name" name="project_name" required>
+
+        <label for="client_name">Nom du Client:</label>
+        <input type="text" id="client_name" name="client_name" required>
+
+        <label for="start_date">Date de Début:</label>
+        <input type="date" id="start_date" name="start_date" required>
+
+        <label for="end_date">Date de Fin:</label>
+        <input type="date" id="end_date" name="end_date">
+
+        <h2>Ajouter une Tâche</h2>
+        <label for="task_title">Titre de la Tâche:</label>
+        <input type="text" id="task_title" name="task_title" required>
+
+        <label for="task_type">Type de Tâche:</label>
+        <select id="task_type" name="task_type" required>
+            <option value="development">Développement</option>
+            <option value="design">Design</option>
+        </select>
+
+        <div id="development_task_details">
+            <label for="estimated_hours">Heures Estimées (Développement):</label>
+            <input type="number" id="estimated_hours" name="estimated_hours">
+        </div>
+
+        <div id="design_task_details">
+            <label for="design_estimated_hours">Heures Estimées (Design):</label>
+            <input type="number" id="design_estimated_hours" name="design_estimated_hours">
+            <label for="tool_used">Outil Utilisé:</label>
+            <input type="text" id="tool_used" name="tool_used">
+        </div>
+
+        <label for="developer_name">Nom du Développeur:</label>
+        <input type="text" id="developer_name" name="developer_name" required>
+
+        <button type="submit">Ajouter</button>
+    </form>
+</body>
+</html>
