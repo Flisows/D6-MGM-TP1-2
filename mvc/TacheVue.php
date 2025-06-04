@@ -22,7 +22,6 @@ class TacheVue {
         echo '</form>';
     }
 
-    // Nouvelle méthode pour afficher le formulaire d'édition
     public function afficherFormulaireEdition($tache) {
         echo '<form method="post" action="index.php?action=editer">';
         echo '<input type="hidden" name="id" value="' . $tache['id'] . '">';

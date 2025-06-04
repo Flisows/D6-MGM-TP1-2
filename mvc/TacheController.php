@@ -31,7 +31,6 @@ class TacheController {
         });
     }
 
-    // Nouvelle méthode pour éditer une tâche
     public function editerTache($id, $nom, $description) {
         if (empty($nom) || empty($description)) {
             throw new Exception("Le nom et la description de la tâche ne peuvent pas être vides.");
