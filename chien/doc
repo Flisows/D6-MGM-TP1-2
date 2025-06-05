@@ -1,0 +1,31 @@
+# Chiens
+
+# Objectif : Développer une application de gestion des chiens en utilisant la programmation
+# orientée objet (POO) avec une architecture MVC en PHP, en stockant toutes les données en
+# session.
+# Partie 1 : Modélisation des Chiens
+# Créez une classe Chien avec les attributs suivants : nom, âge, race, couleur, sexe, poids.
+# Ajoutez des méthodes à la classe Chien pour afficher les détails du chien, calculer l'âge en
+# années humaines (7 ans de chien équivaut à 1 an humain), générer un aboiement
+# spécifique du chien et déterminer si le chien est en surpoids (> 20 kg).
+# Partie 2 : Polymorphisme et Interface
+# Créez une interface Animal avec une méthode crier(). Faites en sorte que les classes Chien
+# et ChienDeChasse implémentent cette interface.
+# Utilisez le polymorphisme pour appeler la méthode crier() sur des objets de ces classes.
+# Partie 3 : Architecture MVC
+# Créez un contrôleur ChienController pour gérer les actions relatives aux chiens. Le
+# contrôleur doit permettre d'afficher la liste des chiens et d'afficher les détails d'un chien en
+# particulier, de créer un nouveau chien, de mettre à jour les détails d'un chien existant et de
+# supprimer un chien.
+# Créez une vue listeChiensView pour afficher la liste des chiens et une vue chienView pour
+# afficher les détails d'un chien.
+# Utilisez le contrôleur pour charger les chiens depuis la session et affichez-les dans la vue de
+# liste. Permettez également de cliquer sur un chien pour afficher ses détails dans la vue de
+# détail. Implémentez des formulaires pour créer, mettre à jour des chiens ainsi qu'un bouton
+# pour supprimer des chiens.
+# + pts mise en forme
+# Partie 4 : Fonctionnalités Avancées
+# Implémentez une fonction de recherche pour trouver des chiens par nom.
+# Partie 5 : Gestion du Chenil
+# Créez une classe Chenil qui gère l'ensemble des chiens présents en session. La classe
+# devrait permettre d'ajouter, mettre à jour, supprimer et récupérer des chiens.
